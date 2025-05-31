@@ -2,7 +2,6 @@ name: root-binder
 channels:
   - conda-forge
 dependencies:
-  - xeus-cling  # C++ kernel for Jupyter
-  - root        # ROOT (built with Cling support)
-  - jupyterlab  # Jupyter interface
-  - notebook    # Classic notebook support
+  - root  # This includes Cling
+  - jupyterlab
+  - notebook
