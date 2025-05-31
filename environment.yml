@@ -1,0 +1,7 @@
+name: root-binder
+channels:
+  - conda-forge
+dependencies:
+  - root  # Installs ROOT
+  - jupyterlab  # Modern Jupyter interface
+  - notebook   # Classic notebook support
